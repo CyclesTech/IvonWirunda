@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivon Wirunda</title>
+    <style>
+        .project {
+            background-color: white;
+            margin-bottom: 2em;
+            padding: 2em;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 400px;
+            margin: 0 auto; /* Center the project */
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .project:hover {
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+        }
+        .project img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1em;
+            transition: transform 0.3s ease-in-out;
+        }
+        .project img:hover {
+            transform: scale(1.1);
+        }
+        .project h2 {
+            margin: 0 0 0.5em 0;
+            color: #333;
+        }
+        .project .brand-name {
+            font-size: 1.5em;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .project .course {
+            font-weight: normal;
+            color: #333;
+            margin: 0.5em 0;
+        }
+        .project .university {
+            font-weight: normal;
+            color: #666;
+        }
+        .project .values {
+            list-style-type: none;
+            padding: 0;
+            margin: 0.5em 0;
+        }
+        .project .values li {
+            margin: 0.5em 0;
+        }
+        .project a {
+            display: inline-block;
+            padding: 0.75em 1.5em;
+            margin-top: 1em;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+            position: relative;
+        }
+        .project a:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+        .project a::after {
+            content: '\f178'; /* Right arrow icon from Font Awesome */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <img src="11.jpeg" alt="Daniel France">
+        <h2>Ivon Wirunda</h2>
+        <h2 class="brand-name">Business Analyst</h2>
+        
+        
+        <p class="university">Business Management ,Friends College Kaimosi</p>
+        <ul class="values">
+            <li>Integrity</li>
+            <li>Accountability</li>
+            <li>Innovation</li>
+        </ul>
+        <a href="cv.html">View CV</a>
+    </div>
+</body>
+</html>
